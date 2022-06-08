@@ -1,0 +1,80 @@
+[
+  {
+    "copy-from": "kitchen_unit_abstract",
+    "abstract": "kitchen_unit_abstract",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "welding_rig_abstract",
+    "abstract": "welding_rig_abstract",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "craft_rig_abstract",
+    "abstract": "craft_rig_abstract",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "chemlab_abstract",
+    "abstract": "chemlab_abstract",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "veh_forge_abstract",
+    "abstract": "veh_forge_abstract",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "veh_kiln_abstract",
+    "abstract": "veh_kiln_abstract",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "kitchen_unit",
+    "id": "kitchen_unit",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "welding_rig",
+    "id": "welding_rig",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "craft_rig",
+    "id": "craft_rig",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "chemlab",
+    "id": "chemlab",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "veh_forge",
+    "id": "veh_forge",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "veh_kiln",
+    "id": "veh_kiln",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "veh_oil_press_electric",
+    "id": "veh_oil_press_electric",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  }
+]

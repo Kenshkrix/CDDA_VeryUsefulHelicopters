@@ -1,0 +1,86 @@
+[
+  {
+    "copy-from": "aisle_lights",
+    "id": "aisle_lights",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "atomic_lamp",
+    "id": "atomic_lamp",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "atomic_light",
+    "id": "atomic_light",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "floodlight",
+    "id": "floodlight",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "directed_floodlight",
+    "id": "directed_floodlight",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "headlight",
+    "id": "headlight",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "motorcycle_headlight",
+    "id": "motorcycle_headlight",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "wide_headlight",
+    "id": "wide_headlight",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "headlight_reinforced",
+    "id": "headlight_reinforced",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "wide_headlight_reinforced",
+    "id": "wide_headlight_reinforced",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "light_emergency",
+    "abstract": "light_emergency",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "light_blue",
+    "id": "light_blue",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "light_red",
+    "id": "light_red",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "lit_aisle",
+    "id": "lit_aisle",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  }
+]

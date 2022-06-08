@@ -1,0 +1,14 @@
+[
+  {
+    "copy-from": "wing_mirror",
+    "type": "vehicle_part",
+    "id": "wing_mirror",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "inboard_mirror",
+    "type": "vehicle_part",
+    "id": "inboard_mirror",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  }
+]

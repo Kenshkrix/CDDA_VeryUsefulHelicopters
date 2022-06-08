@@ -1,0 +1,38 @@
+[
+  {
+    "copy-from": "windshield_abstract",
+    "abstract": "windshield_abstract",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "windshield",
+    "id": "windshield",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "windshield_full",
+    "id": "windshield_full",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "reinforced_windshield_abstract",
+    "abstract": "reinforced_windshield_abstract",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "reinforced_windshield",
+    "id": "reinforced_windshield",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "reinforced_windshield_full",
+    "id": "reinforced_windshield_full",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  }
+]

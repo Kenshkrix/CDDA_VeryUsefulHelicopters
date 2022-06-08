@@ -1,0 +1,62 @@
+[
+  {
+    "copy-from": "ram_blaze",
+    "abstract": "ram_blaze",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "ram_alloy",
+    "id": "ram_alloy",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "ram_hardsteel",
+    "id": "ram_hardsteel",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "ram_spiked",
+    "id": "ram_spiked",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "ram_steel",
+    "id": "ram_steel",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "ram_wood",
+    "id": "ram_wood",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "ram_chitin",
+    "id": "ram_chitin",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "ram_acidchitin",
+    "id": "ram_acidchitin",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "ram_mattress",
+    "id": "ram_mattress",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "tearer",
+    "id": "tearer",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  }
+]

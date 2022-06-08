@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "VeryUsefulHelicopters",
+    "name": "Very Useful Helicopters",
+    "authors": [ "Kenshkrix" ],
+    "maintainers": [ "Kenshkrix" ],
+    "description": "Adds the SIMPLE_PART flag to every vehicle part so they can be installed and uninstalled from helicopters without compromising their flightworthiness. Decreases the energy cost of turbine type engines by 10%. Also removes the NO_INSTALL_PLAYER and NO_REPAIR flags from rotors, so they can be installed and repaired.",
+    "category": "content",
+    "obsolete": false,
+    "dependencies": [ "dda" ]
+  }
+]

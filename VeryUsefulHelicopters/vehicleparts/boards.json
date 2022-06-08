@@ -1,0 +1,98 @@
+[
+  {
+    "copy-from": "base_board_abstract",
+    "abstract": "base_board_abstract",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "board_abstract",
+    "abstract": "board_abstract",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "board",
+    "id": "board",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "halfboard",
+    "id": "halfboard",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "clothboard_abstract",
+    "abstract": "clothboard_abstract",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "clothboard",
+    "id": "clothboard",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "cloth_halfboard",
+    "abstract": "cloth_halfboard",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "stowboard",
+    "id": "stowboard",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "hdstowboard",
+    "id": "hdstowboard",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "hdboard_abstract",
+    "abstract": "hdboard_abstract",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "hdboard",
+    "id": "hdboard",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "hdhalfboard",
+    "id": "hdhalfboard",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "woodboard_abstract",
+    "abstract": "woodboard_abstract",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "woodboard",
+    "id": "woodboard",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "woodhalfboard",
+    "id": "woodhalfboard",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "xlhalfboard",
+    "id": "xlhalfboard",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  }
+]

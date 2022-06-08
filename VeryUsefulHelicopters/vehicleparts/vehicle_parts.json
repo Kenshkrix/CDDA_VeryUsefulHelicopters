@@ -1,0 +1,692 @@
+[
+  {
+    "copy-from": "yoke_harness",
+    "type": "vehicle_part",
+    "id": "yoke_harness",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "cart_handle",
+    "type": "vehicle_part",
+    "id": "cart_handle",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "tracker",
+    "type": "vehicle_part",
+    "id": "tracker",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "bed",
+    "type": "vehicle_part",
+    "id": "bed",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "frame_handle",
+    "type": "vehicle_part",
+    "id": "frame_handle",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "frame_wood_handle",
+    "type": "vehicle_part",
+    "id": "frame_wood_handle",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "frame_wood_light_handle",
+    "type": "vehicle_part",
+    "id": "frame_wood_light_handle",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "aisle",
+    "type": "vehicle_part",
+    "id": "aisle",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "wooden_aisle",
+    "type": "vehicle_part",
+    "id": "wooden_aisle",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "foldable_aisle",
+    "type": "vehicle_part",
+    "id": "foldable_aisle",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "trunk_floor",
+    "type": "vehicle_part",
+    "id": "trunk_floor",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "roof_cloth",
+    "type": "vehicle_part",
+    "id": "roof_cloth",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "roof",
+    "type": "vehicle_part",
+    "id": "roof",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "hdroof",
+    "type": "vehicle_part",
+    "id": "hdroof",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "blade",
+    "type": "vehicle_part",
+    "id": "blade",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "spike",
+    "type": "vehicle_part",
+    "id": "spike",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "programmable_autopilot",
+    "type": "vehicle_part",
+    "id": "programmable_autopilot",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "storage_battery_mount",
+    "type": "vehicle_part",
+    "id": "storage_battery_mount",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "handheld_battery_mount",
+    "type": "vehicle_part",
+    "id": "handheld_battery_mount",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "black_box",
+    "type": "vehicle_part",
+    "id": "black_box",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "minireactor",
+    "type": "vehicle_part",
+    "id": "minireactor",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "minifridge",
+    "type": "vehicle_part",
+    "id": "minifridge",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "minifreezer",
+    "type": "vehicle_part",
+    "id": "minifreezer",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "washing_machine",
+    "type": "vehicle_part",
+    "id": "washing_machine",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "dishwasher",
+    "type": "vehicle_part",
+    "id": "dishwasher",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "autoclave",
+    "type": "vehicle_part",
+    "id": "autoclave",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "travois",
+    "type": "vehicle_part",
+    "id": "travois",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "wood box",
+    "type": "vehicle_part",
+    "id": "wood box",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "folding wood box",
+    "type": "vehicle_part",
+    "id": "folding wood box",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "veh_table",
+    "type": "vehicle_part",
+    "id": "veh_table",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "veh_table_wood",
+    "type": "vehicle_part",
+    "id": "veh_table_wood",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "veh_table_foldable",
+    "type": "vehicle_part",
+    "id": "veh_table_foldable",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "workbench",
+    "type": "vehicle_part",
+    "id": "workbench",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "workbench_with_recharger",
+    "type": "vehicle_part",
+    "id": "workbench_with_recharger",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "boat_board",
+    "type": "vehicle_part",
+    "id": "boat_board",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "raft_board",
+    "type": "vehicle_part",
+    "id": "raft_board",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "plastic_boat_hull",
+    "type": "vehicle_part",
+    "id": "plastic_boat_hull",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "metal_boat_hull",
+    "type": "vehicle_part",
+    "id": "metal_boat_hull",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "carbonfiber_boat_hull",
+    "type": "vehicle_part",
+    "id": "carbonfiber_boat_hull",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "inflatable_section",
+    "type": "vehicle_part",
+    "id": "inflatable_section",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "inflatable_airbag",
+    "type": "vehicle_part",
+    "id": "inflatable_airbag",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "sail",
+    "type": "vehicle_part",
+    "id": "sail",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "hand_paddles",
+    "type": "vehicle_part",
+    "id": "hand_paddles",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "reins_tackle",
+    "type": "vehicle_part",
+    "id": "reins_tackle",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "controls",
+    "type": "vehicle_part",
+    "id": "controls",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "dashboard",
+    "type": "vehicle_part",
+    "id": "dashboard",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "mountable_heater",
+    "id": "mountable_heater",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "mountable_heater_small",
+    "id": "mountable_heater_small",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "mountable_cooler",
+    "id": "mountable_cooler",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "controls_electronic",
+    "type": "vehicle_part",
+    "id": "controls_electronic",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "muffler",
+    "type": "vehicle_part",
+    "id": "muffler",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "vehicle_alarm",
+    "type": "vehicle_part",
+    "id": "vehicle_alarm",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "smart_engine_controller",
+    "type": "vehicle_part",
+    "id": "smart_engine_controller",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "water_wheel",
+    "type": "vehicle_part",
+    "id": "water_wheel",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "xl_water_wheel",
+    "type": "vehicle_part",
+    "id": "xl_water_wheel",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "solar_panel",
+    "type": "vehicle_part",
+    "id": "solar_panel",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "wind_turbine",
+    "type": "vehicle_part",
+    "id": "wind_turbine",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "xl_wind_turbine",
+    "type": "vehicle_part",
+    "id": "xl_wind_turbine",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "foldable_solar_panel",
+    "type": "vehicle_part",
+    "id": "foldable_solar_panel",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "reinforced_solar_panel",
+    "type": "vehicle_part",
+    "id": "reinforced_solar_panel",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "solar_panel_v2",
+    "type": "vehicle_part",
+    "id": "solar_panel_v2",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "reinforced_solar_panel_v2",
+    "type": "vehicle_part",
+    "id": "reinforced_solar_panel_v2",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "water_faucet",
+    "type": "vehicle_part",
+    "id": "water_faucet",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "towel_hanger",
+    "type": "vehicle_part",
+    "id": "towel_hanger",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "plating_wood",
+    "type": "vehicle_part",
+    "id": "plating_wood",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "plating_steel",
+    "type": "vehicle_part",
+    "id": "plating_steel",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "plating_superalloy",
+    "type": "vehicle_part",
+    "id": "plating_superalloy",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "plating_spiked",
+    "type": "vehicle_part",
+    "id": "plating_spiked",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "plating_hard",
+    "type": "vehicle_part",
+    "id": "plating_hard",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "plating_military",
+    "type": "vehicle_part",
+    "id": "plating_military",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "horn_bicycle",
+    "type": "vehicle_part",
+    "id": "horn_bicycle",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "horn_car",
+    "type": "vehicle_part",
+    "id": "horn_car",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "horn_big",
+    "type": "vehicle_part",
+    "id": "horn_big",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "beeper",
+    "type": "vehicle_part",
+    "id": "beeper",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "cargo_space",
+    "type": "vehicle_part",
+    "id": "cargo_space",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "livestock_stall",
+    "type": "vehicle_part",
+    "id": "livestock_stall",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "animal_compartment",
+    "type": "vehicle_part",
+    "id": "animal_compartment",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "recharge_station",
+    "type": "vehicle_part",
+    "id": "recharge_station",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "battery_charger",
+    "type": "vehicle_part",
+    "id": "battery_charger",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "stereo",
+    "type": "vehicle_part",
+    "id": "stereo",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "chimes",
+    "type": "vehicle_part",
+    "id": "chimes",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "jumper_cable",
+    "type": "vehicle_part",
+    "id": "jumper_cable",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "extension_cable",
+    "type": "vehicle_part",
+    "id": "extension_cable",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "long_extension_cable",
+    "type": "vehicle_part",
+    "id": "long_extension_cable",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "jumper_cable_heavy",
+    "type": "vehicle_part",
+    "id": "jumper_cable_heavy",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "hd_tow_cable",
+    "type": "vehicle_part",
+    "id": "hd_tow_cable",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "jumper_cable_debug",
+    "type": "vehicle_part",
+    "id": "jumper_cable_debug",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "seat_wood_flimsy",
+    "type": "vehicle_part",
+    "id": "seat_wood_flimsy",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "seat_wood",
+    "type": "vehicle_part",
+    "id": "seat_wood",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "seat_wood_bench",
+    "type": "vehicle_part",
+    "id": "seat_wood_bench",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "spike_wood",
+    "type": "vehicle_part",
+    "id": "spike_wood",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "roof_wood",
+    "type": "vehicle_part",
+    "id": "roof_wood",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "plating_chitin",
+    "type": "vehicle_part",
+    "id": "plating_chitin",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "plating_acidchitin",
+    "type": "vehicle_part",
+    "id": "plating_acidchitin",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "door_motor",
+    "type": "vehicle_part",
+    "id": "door_motor",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "drive_by_wire_controls",
+    "type": "vehicle_part",
+    "id": "drive_by_wire_controls",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "cam_control",
+    "type": "vehicle_part",
+    "id": "cam_control",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "omnicam",
+    "type": "vehicle_part",
+    "id": "omnicam",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "robot_controls",
+    "type": "vehicle_part",
+    "id": "robot_controls",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "vehicle_clock",
+    "type": "vehicle_part",
+    "id": "vehicle_clock",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "leather_funnel",
+    "type": "vehicle_part",
+    "id": "leather_funnel",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "birchbark_funnel",
+    "type": "vehicle_part",
+    "id": "birchbark_funnel",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "makeshift_funnel",
+    "type": "vehicle_part",
+    "id": "makeshift_funnel",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "funnel",
+    "type": "vehicle_part",
+    "id": "funnel",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "metal_funnel",
+    "type": "vehicle_part",
+    "id": "metal_funnel",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "vehicle_scoop",
+    "type": "vehicle_part",
+    "id": "vehicle_scoop",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "water_purifier",
+    "type": "vehicle_part",
+    "id": "water_purifier",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "plow",
+    "type": "vehicle_part",
+    "id": "plow",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "seed_drill",
+    "type": "vehicle_part",
+    "id": "seed_drill",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "seed_drill_advanced",
+    "type": "vehicle_part",
+    "id": "seed_drill_advanced",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "reaper",
+    "type": "vehicle_part",
+    "id": "reaper",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "reaper_advanced",
+    "type": "vehicle_part",
+    "id": "reaper_advanced",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "cargo_lock",
+    "type": "vehicle_part",
+    "id": "cargo_lock",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "turret_mount",
+    "type": "vehicle_part",
+    "id": "turret_mount",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "controls_turret",
+    "type": "vehicle_part",
+    "id": "controls_turret",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  }
+]

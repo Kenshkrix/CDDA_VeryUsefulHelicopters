@@ -1,0 +1,218 @@
+[
+  {
+    "copy-from": "engine_combustion",
+    "abstract": "engine_combustion",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "aero_engine",
+    "abstract": "aero_engine",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "diesel_engine",
+    "abstract": "diesel_engine",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "gasoline_engine",
+    "abstract": "gasoline_engine",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "gas_turbine_engine",
+    "abstract": "gas_turbine_engine",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "diesel_engine_i6",
+    "id": "diesel_engine_i6",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "diesel_engine_v6",
+    "id": "diesel_engine_v6",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "diesel_engine_v8",
+    "id": "diesel_engine_v8",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "engine_1cyl",
+    "id": "engine_1cyl",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "engine_1cyl_large",
+    "id": "engine_1cyl_large",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "engine_1cyl_small",
+    "id": "engine_1cyl_small",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "engine_aero_light",
+    "id": "engine_aero_light",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "engine_inline4",
+    "id": "engine_inline4",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "engine_v12",
+    "id": "engine_v12",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "diesel_engine_v12",
+    "id": "diesel_engine_v12",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "engine_v6",
+    "id": "engine_v6",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "engine_v8",
+    "id": "engine_v8",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "engine_vtwin",
+    "id": "engine_vtwin",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "steam_engine",
+    "abstract": "steam_engine",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "engine_steam_makeshift",
+    "id": "engine_steam_makeshift",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "engine_steam_small",
+    "id": "engine_steam_small",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "engine_steam_medium",
+    "id": "engine_steam_medium",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "id": "engine_turbine_small",
+    "copy-from": "gas_turbine_engine",
+    "type": "vehicle_part",
+    "item": "small_turbine_engine",
+    "description": "A small but powerful gas turbine engine, suitable for powering a small one or two-seat helicopter.",
+    "durability": 400,
+    "epower": -10,
+    "power": 1006695,
+    "energy_consumption": 3624102,
+    "breaks_into": [
+      { "item": "alloy_plate", "count": [ 1, 2 ] },
+      { "item": "steel_lump", "count": [ 45, 58 ] },
+      { "item": "steel_chunk", "count": [ 45, 58 ] },
+      { "item": "scrap", "count": [ 45, 58 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 7 ] ], "time": "60 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 5 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 8 ] ],
+        "time": "60 m",
+        "using": [ [ "repair_welding_standard", 3 ], [ "repair_welding_alloys", 2 ], [ "vehicle_wrench_2", 1 ], [ "vehicle_screw", 1 ] ]
+      }
+    },
+    "damage_reduction": { "all": 60 },
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "id": "engine_turbine_medium",
+    "copy-from": "gas_turbine_engine",
+    "type": "vehicle_part",
+    "item": "medium_turbine_engine",
+    "description": "A heavy-duty gas turbine engine, like those typically found in a Medevac, Apache, or Blackhawk helicopter.",
+    "durability": 400,
+    "epower": -10,
+    "power": 1416830,
+    "energy_consumption": 5100588,
+    "breaks_into": [
+      { "item": "alloy_plate", "count": [ 2, 4 ] },
+      { "item": "steel_lump", "count": [ 50, 65 ] },
+      { "item": "steel_chunk", "count": [ 50, 65 ] },
+      { "item": "scrap", "count": [ 50, 65 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 8 ] ], "time": "60 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 6 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 9 ] ],
+        "time": "60 m",
+        "using": [ [ "repair_welding_standard", 5 ], [ "repair_welding_alloys", 3 ], [ "vehicle_wrench_2", 1 ], [ "vehicle_screw", 1 ] ]
+      }
+    },
+    "damage_reduction": { "all": 65 },
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "id": "engine_turbine_large",
+    "copy-from": "gas_turbine_engine",
+    "type": "vehicle_part",
+    "item": "large_turbine_engine",
+    "description": "A huge gas turbine engine, used to lift large military helicopters such as the V-22 Osprey.",
+    "durability": 400,
+    "epower": -10,
+    "power": 4474199,
+    "energy_consumption": 16107117,
+    "breaks_into": [
+      { "item": "alloy_plate", "count": [ 4, 6 ] },
+      { "item": "steel_lump", "count": [ 100, 120 ] },
+      { "item": "steel_chunk", "count": [ 100, 120 ] },
+      { "item": "scrap", "count": [ 100, 120 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 9 ] ], "time": "60 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 7 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 10 ] ],
+        "time": "60 m",
+        "using": [ [ "repair_welding_standard", 7 ], [ "repair_welding_alloys", 5 ], [ "vehicle_wrench_2", 1 ], [ "vehicle_screw", 1 ] ]
+      }
+    },
+    "damage_reduction": { "all": 70 },
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  }
+]

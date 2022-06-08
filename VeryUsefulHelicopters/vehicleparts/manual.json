@@ -1,0 +1,20 @@
+[
+  {
+    "copy-from": "engine_manual",
+    "abstract": "engine_manual",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "foot_pedals",
+    "id": "foot_pedals",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "hand_rims",
+    "id": "hand_rims",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  }
+]

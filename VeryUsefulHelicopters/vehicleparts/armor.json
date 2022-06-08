@@ -1,0 +1,14 @@
+[
+  {
+    "copy-from": "rebar_plate",
+    "id": "rebar_plate",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "spring_plate",
+    "id": "spring_plate",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "copy-from": "battery_car",
+    "id": "battery_car",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "battery_motorbike",
+    "id": "battery_motorbike",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "battery_motorbike_small",
+    "id": "battery_motorbike_small",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "large_storage_battery",
+    "id": "large_storage_battery",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "medium_storage_battery",
+    "id": "medium_storage_battery",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "small_storage_battery",
+    "id": "small_storage_battery",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "large_storage_battery_removable",
+    "id": "large_storage_battery_removable",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "storage_battery",
+    "id": "storage_battery",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "storage_battery_removable",
+    "id": "storage_battery_removable",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "car_light_minus_battery_cell",
+    "id": "car_light_minus_battery_cell",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "car_light_battery_cell",
+    "id": "car_light_battery_cell",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "car_light_plus_battery_cell",
+    "id": "car_light_plus_battery_cell",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "car_medium_battery_cell",
+    "id": "car_medium_battery_cell",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "car_medium_plus_battery_cell",
+    "id": "car_medium_plus_battery_cell",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "car_heavy_battery_cell",
+    "id": "car_heavy_battery_cell",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  },
+  {
+    "copy-from": "car_heavy_plus_battery_cell",
+    "id": "car_heavy_plus_battery_cell",
+    "type": "vehicle_part",
+	"extend": { "flags": [ "SIMPLE_PART" ] }
+  }
+]
